@@ -1,0 +1,19 @@
+* {
+  --primary-color: rgba(33, 33, 33, 0.5);
+  --secondary-color: rgba(236, 216, 189, 1);
+  --third-color: white;
+  --forth-color: rgba(125, 86, 32, 1);
+  --fifth-color: rgba(181, 130, 36, 1);
+  --sixth-color: rgba(202, 202, 202, 1);
+}
+
+@font-face {
+  font-family: "Recoleta";
+  src: url(c18c2a4c79bde82d26df.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(2ddec885ec2fb8c9d2c4.woff2) format("woff2");
+}
+
