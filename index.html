@@ -5,12 +5,37 @@
     <title>Uarda Dauti Lashes</title>
   </head>
   <body>
-    <h1>Uarda Dauti Lashes</h1>
-    <h2>Official Web Page</h2>
-  </body>
-  <div class="container">
-    <div class="cards"></div>
+<header class="navbar">
+  <div class="logo">LOGO</div>
+
+  <!-- Desktop Nav + Login -->
+  <div class="nav-center">
+    <nav class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+    </nav>
+    <a href="#" class="login-btn">Log in</a>
   </div>
+
+  <!-- Hamburger for mobile -->
+  <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <!-- Mobile Menu (hidden on desktop) -->
+  <nav class="mobile-menu" id="mobileMenu">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Log in</a>
+  </nav>
+</header>
+
+  </body>
+
   <script>
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", () => {
